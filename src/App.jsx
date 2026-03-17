@@ -18,6 +18,7 @@ function App() {
         <div>
           <h1>Shiloh</h1>
           <p>
+            hi
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
