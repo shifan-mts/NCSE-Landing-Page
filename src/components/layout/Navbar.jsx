@@ -43,7 +43,7 @@ const Navbar = () => {
                             {link.name}
                         </NavLink>
                     ))}
-                    <button className="btn btn-primary !py-2 !px-6">Join Us</button>
+                    <NavLink to="/contact" className="btn btn-primary !py-2 !px-6" style={{ textDecoration: 'none' }}>Join Us</NavLink>
                 </div>
 
                 {/* Mobile Toggle */}
@@ -75,7 +75,7 @@ const Navbar = () => {
                                     {link.name}
                                 </NavLink>
                             ))}
-                            <button className="btn btn-primary w-full">Join Us</button>
+                            <NavLink to="/contact" onClick={() => setIsOpen(false)} className="btn btn-primary w-full" style={{ textDecoration: 'none' }}>Join Us</NavLink>
                         </div>
                     </motion.div>
                 )}
