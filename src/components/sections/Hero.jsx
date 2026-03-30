@@ -123,7 +123,7 @@ export default function Hero() {
                       <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" fill="white" opacity="0.75" />
                       <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" fill="white" />
                     </svg>
-                    <span style={{ position: 'relative', zIndex: 2 }}>Explore Events</span>
+                    <span style={{ position: 'relative', zIndex: 2 }}>Ignite Events 🔥</span>
                     {/* Sliding arrow */}
                     <span className="h-arrow" style={{ position: 'relative', zIndex: 2 }}>
                       <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
@@ -167,32 +167,26 @@ export default function Hero() {
                   pointerEvents: 'none', zIndex: 1,
                 }} />
 
-                {/* Icon */}
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style={{ position: 'relative', zIndex: 2, flexShrink: 0 }}>
-                  <defs>
-                    <linearGradient id="lmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#60a5fa" />
-                      <stop offset="100%" stopColor="#a78bfa" />
-                    </linearGradient>
-                  </defs>
-                  <circle cx="12" cy="12" r="10" stroke="url(#lmGrad)" strokeWidth="1.8" fill="none" />
-                  <line x1="12" y1="8" x2="12" y2="8.5" stroke="url(#lmGrad)" strokeWidth="2.2" strokeLinecap="round" />
-                  <line x1="12" y1="11" x2="12" y2="16" stroke="url(#lmGrad)" strokeWidth="2" strokeLinecap="round" />
-                </svg>
+                {/* Magnifying glass icon — slides slightly on hover via h-arrow class */}
+                <span className="h-arrow" style={{ position: 'relative', zIndex: 2, flexShrink: 0 }}>
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
+                    <defs>
+                      <linearGradient id="mgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stopColor="#60a5fa" />
+                        <stop offset="100%" stopColor="#a78bfa" />
+                      </linearGradient>
+                    </defs>
+                    <circle cx="11" cy="11" r="7" stroke="url(#mgGrad)" strokeWidth="2" fill="none" />
+                    <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="url(#mgGrad)" strokeWidth="2.2" strokeLinecap="round" />
+                  </svg>
+                </span>
 
                 <span style={{
                   position: 'relative', zIndex: 2,
                   background: 'linear-gradient(90deg, #e2e8f0, #c4b5fd)',
                   WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
                 }}>
-                  Learn More
-                </span>
-
-                {/* Sliding arrow */}
-                <span className="h-arrow" style={{ position: 'relative', zIndex: 2 }}>
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
-                    <polyline points="9,5 16,12 9,19" stroke="rgba(167,139,250,0.85)" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  Uncover
                 </span>
               </motion.button>
             </Link>

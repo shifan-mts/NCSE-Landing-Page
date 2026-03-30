@@ -111,7 +111,7 @@ const Navbar = () => {
                                     background: 'linear-gradient(90deg, #93c5fd, #c4b5fd)',
                                     WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
                                 }}>
-                                    Join Us
+                                    Plug In ⚡
                                 </span>
                             </button>
                         </div>
@@ -153,7 +153,7 @@ const Navbar = () => {
                                 className="btn btn-primary w-full text-center"
                                 style={{ textDecoration: 'none' }}
                             >
-                                Join Us
+                                Plug In ⚡
                             </NavLink>
                         </div>
                     </motion.div>

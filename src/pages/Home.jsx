@@ -3,15 +3,15 @@ import CarouselSection from '../components/sections/CarouselSection';
 
 const Home = () => {
     const inaugurationImages = [
-        '/images/inauguration_moment_1773842356873.png',
-        '/images/tech_conference_hall_1773842391237.png',
-        '/images/student_coding_event_1773842375785.png',
+        '/images/inauguration1.jpeg',
+        '/images/inauguration2.jpeg',
+        '/images/inauguration3.jpeg',
     ];
 
     const pastEventImages = [
-        '/images/student_coding_event_1773842375785.png',
-        '/images/tech_conference_hall_1773842391237.png',
-        '/images/inauguration_moment_1773842356873.png',
+        '/images/event1.jpeg',
+        '/images/event2.jpeg',
+        '/images/event3.jpeg',
     ];
 
     return (
