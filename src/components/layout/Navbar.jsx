@@ -38,8 +38,7 @@ const Navbar = () => {
         <nav
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
                 scrolled ? 'glass py-4 shadow-lg' : 'bg-transparent py-6'
-            }`}
-        >
+            }`}>
             <style>{NAV_STYLES}</style>
 
             <div className="container flex items-center justify-between">
@@ -111,7 +110,7 @@ const Navbar = () => {
                                     background: 'linear-gradient(90deg, #93c5fd, #c4b5fd)',
                                     WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
                                 }}>
-                                    Plug In ⚡
+                                    Plug In 
                                 </span>
                             </button>
                         </div>
@@ -147,19 +146,66 @@ const Navbar = () => {
                                     {link.name}
                                 </NavLink>
                             ))}
-                            <NavLink
-                                to="/contact"
-                                onClick={() => setIsOpen(false)}
-                                className="btn btn-primary w-full text-center"
-                                style={{ textDecoration: 'none' }}
-                            >
-                                Plug In ⚡
-                            </NavLink>
-                        </div>
-                    </motion.div>
+                            <NavLink to="/contact" onClick={() => setIsOpen(false)} style={{ textDecoration: 'none' }}>
+                                                <div style={{
+      padding: '1.5px',
+      borderRadius: '10px',
+      background: 'linear-gradient(135deg, #3b82f6, #8b5cf6, #3b82f6)',
+  }}>
+    <button
+      className="nb-join-btn w-full"
+      style={{
+        position: 'relative',
+        display: 'inline-flex',
+        alignItems: 'center',
+        gap: '7px',
+        padding: '8px 22px',
+        borderRadius: '9px',
+        border: 'none',
+        background: 'linear-gradient(135deg, rgba(15,20,50,0.95) 0%, rgba(30,30,70,0.95) 100%)',
+        color: 'white',
+        fontWeight: 700,
+        fontSize: '14px',
+        letterSpacing: '0.04em',
+        cursor: 'pointer',
+        overflow: 'hidden',
+        transition: 'transform 0.22s cubic-bezier(.34,1.56,.64,1)',
+      }}
+    >
+      {/* Sweep light */}
+      <div className="nb-sweep" style={{
+          position: 'absolute', top: 0, left: '-80%',
+          width: '55%', height: '100%',
+          background: 'linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent)',
+          pointerEvents: 'none', zIndex: 1,
+      }} />
+
+      {/* Spark icon with unique gradient ID for mobile */}
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" style={{ position: 'relative', zIndex: 2 }}>
+          <defs>
+              <linearGradient id="sparkGradMobile" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#93c5fd" />
+                  <stop offset="100%" stopColor="#c4b5fd" />
+              </linearGradient>
+          </defs>
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="url(#sparkGradMobile)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      </svg>
+
+      <span style={{
+          position: 'relative', zIndex: 2,
+          background: 'linear-gradient(90deg, #93c5fd, #c4b5fd)',
+          WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
+      }}>
+          Plug In
+      </span>
+    </button>
+  </div>
+</NavLink>
+</div>
+</motion.div>
                 )}
-            </AnimatePresence>
-        </nav>
+                </AnimatePresence>
+                </nav>
     );
 };
 

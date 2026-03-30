@@ -123,7 +123,7 @@ export default function Hero() {
                       <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" fill="white" opacity="0.75" />
                       <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" fill="white" />
                     </svg>
-                    <span style={{ position: 'relative', zIndex: 2 }}>Ignite Events 🔥</span>
+                    <span style={{ position: 'relative', zIndex: 2 }}>Ignite Events</span>
                     {/* Sliding arrow */}
                     <span className="h-arrow" style={{ position: 'relative', zIndex: 2 }}>
                       <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
