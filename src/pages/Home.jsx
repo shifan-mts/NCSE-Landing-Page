@@ -3,15 +3,15 @@ import CarouselSection from '../components/sections/CarouselSection';
 
 const Home = () => {
     const inaugurationImages = [
-        '/images/inauguration1.jpeg',
-        '/images/inauguration2.jpeg',
-        '/images/inauguration3.jpeg',
+        '/images/inauguration1.png',
+        '/images/inauguration2.png',
+        '/images/inauguration3.png',
     ];
 
     const pastEventImages = [
-        '/images/event1.jpeg',
-        '/images/event2.jpeg',
-        '/images/event3.jpeg',
+        '/images/event1.png',
+        '/images/event2.png',
+        '/images/event3.png',
     ];
 
     return (

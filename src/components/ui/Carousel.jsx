@@ -6,11 +6,10 @@ const STYLES = `
     100% { transform: translate(-50%,-50%) scale(5); opacity: 0; }
   }
   @keyframes c-border-glow {
-    0%,100% { box-shadow: 0 0 18px rgba(139,92,246,0.45), 0 0 40px rgba(59,130,246,0.18); }
-    50%      { box-shadow: 0 0 32px rgba(139,92,246,0.7),  0 0 70px rgba(59,130,246,0.35); }
-  }
-
-  .c-nav-btn {
+    0%,100% { box-shadow: 0 0 10x rgba(139,92,246,0.25), 0 0 20px rgba(59,130,246,0.12); }
+    50%      { box-shadow: 0 0 18px rgba(139,92,246,0.35),  0 0 35px rgba(59,130,246,0.18); }
+}
+      .c-nav-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -35,7 +34,7 @@ const STYLES = `
     transform: translateY(-50%) scale(1.12);
     border-color: rgba(139,92,246,0.85);
     background: rgba(20,26,55,0.88);
-    box-shadow: 0 0 22px rgba(139,92,246,0.55), 0 0 50px rgba(59,130,246,0.2), 0 4px 16px rgba(0,0,0,0.5);
+    box-shadow: 0 0 20px rgba(139,92,246,0.55), 0 0 50px rgba(59,130,246,0.2), 0 4px 16px rgba(0,0,0,0.5);
   }
   .c-nav-btn:not(:disabled):active { transform: translateY(-50%) scale(0.96); }
   .c-nav-btn:not(:disabled):hover .c-arrow-left  { transform: translateX(-3px); }
@@ -175,11 +174,13 @@ export function ImageGallery({ images }) {
             position: "relative",
             padding: "2px",
             borderRadius: "20px",
-            background: "linear-gradient(135deg, rgba(139,92,246,0.75) 0%, rgba(59,130,246,0.55) 50%, rgba(139,92,246,0.75) 100%)",
+            background: "linear-gradient(135deg, rgba(139,92,246,0.45) 0%, rgba(59,130,246,0.35) 50%, rgba(139,92,246,0.45) 100%)",
             animation: "c-border-glow 3s ease-in-out infinite",
+            boxShadow: `0 18px 40px rgba(0,0,0,0.35),0 0 25px rgba(139,92,246,0.25),0 0 45px rgba(59,130,246,0.15)`,
+            filter: "drop-shadow(0 0 35px rgba(139,92,246,0.35))",
           }}
         >
-          <div style={{ position: "relative", overflow: "hidden", borderRadius: "18px", width: "100%", aspectRatio: "16/9" }}>
+          <div style={{ position: "relative", overflow: "hidden", borderRadius: "18px",width: "100%", aspectRatio: "16/9" , boxShadow: "0 12px 30px rgba(0,0,0,0.35), 0 0 18px rgba(139,92,246,0.18), inset 0 0 12px rgba(255,255,255,0.04)"}}>
             {gsapReady &&
               images.map((image, i) => (
                 <div
@@ -199,7 +200,8 @@ export function ImageGallery({ images }) {
               ))}
 
             {/* Dot tabs (SVG overlay inside image) */}
-            <div style={{ position: "absolute", inset: 0, zIndex: 100, pointerEvents: "none" }}>
+            <div style={{ position: "absolute", inset: 0, zIndex: 100, pointerEvents: "none",  background:
+      "linear-gradient(120deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 40%, transparent 70%)" }}>
               <Tabs images={images} onSelect={onClick} opened={opened} />
             </div>
 
@@ -283,7 +285,12 @@ function GalleryImage({ url, open, inPlace, id, onInPlace, total }) {
         <clipPath id={`${id}_rect`}><rect width={W} height={H} /></clipPath>
       </defs>
       <g clipPath={`url(#${id}${inPlace ? "_rect" : "_circ"})`}>
-        <image width={W} height={H} href={url} style={{ pointerEvents: "none" }} />
+        <image 
+          width={W} 
+          height={H}
+          href={url}
+          preserveAspectRatio="xMidYMid slice"
+          style={{ pointerEvents: "none" }} />
       </g>
     </svg>
   );
