@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import { Award, Lightbulb, Rocket, Target } from 'lucide-react';
-import { associationInfo } from '../data';
+import { associationInfo, events } from '../data';
 
 const stats = [
     { label: 'Life Members', value: 200, suffix: '+' },
@@ -35,28 +35,40 @@ const values = [
     },
 ];
 
-const timeline = [
-    {
-        year: "2021",
-        title: "The Inception",
-        description: "NCSE was founded by a small group of seniors who wanted a dedicated platform for computing students.",
+const storyByBatch = {
+    "2021-2022": {
+        title: "The Foundation Year",
+        description: "NCSE opened with its inaugural function and quickly shaped its identity through coding, poster making, debate, and team-based quiz events. The first calendar made the association more than a ceremony; it became a place for students to compete, speak, design, and collaborate.",
     },
-    {
-        year: "2022",
-        title: "First Hackathon",
-        description: "Hosted CodeForge, a build-focused competition that brought students into practical team-based problem solving.",
+    "2022-2023": {
+        title: "From Coding to Communication",
+        description: "The next batch sharpened the technical track with Code Infinity, Web Mania, and Brain Teaser while Presentilia added paper presentation and discussion. This year connected programming logic with frontend creativity and the confidence to explain technology clearly.",
     },
-    {
-        year: "2023",
-        title: "Community Expansion",
-        description: "Expanded into specialized sessions across software, systems, emerging technology, and mentorship.",
+    "2023-2024": {
+        title: "A Complete Student-Tech Calendar",
+        description: "NCSE matured into a balanced event season: BIWIZARD QUIZZITCH for technical agility, FRONTEND MASTERS for UI craft, STORYBOARD for creative technology themes, CROSSME for logic, and MINI PROJECT EXHIBITION for real-world problem solving. The valedictory closed the loop by celebrating participation and outcomes.",
     },
-    {
-        year: "2024",
-        title: "National Recognition",
-        description: "Built a stronger annual calendar with ceremonies, summits, workshops, and student-led technical initiatives.",
-    }
-];
+};
+
+const createStoryTimeline = (eventBatches) => eventBatches
+    .slice()
+    .sort((a, b) => Number(a.batch.slice(0, 4)) - Number(b.batch.slice(0, 4)))
+    .map((batch) => {
+        const categories = [...new Set(batch.events.map((event) => event.category))];
+        const story = storyByBatch[batch.batch] || {
+            title: "An Expanding Event Season",
+            description: `NCSE hosted ${batch.events.length} events across ${categories.join(', ')}, continuing its focus on student participation and technical growth.`,
+        };
+
+        return {
+            year: batch.batch,
+            eventCount: batch.events.length,
+            categories,
+            ...story,
+        };
+    });
+
+const timeline = createStoryTimeline(events);
 
 const CountUpNumber = ({ value, suffix, active }) => {
     const [count, setCount] = useState(0);
@@ -104,7 +116,7 @@ const StatCard = ({ label, value, suffix }) => {
     );
 };
 
-const TimelineNode = ({ year, title, description, index }) => {
+const TimelineNode = ({ year, title, description, eventCount, categories, index }) => {
     const isEven = index % 2 === 0;
 
     return (
@@ -116,10 +128,22 @@ const TimelineNode = ({ year, title, description, index }) => {
             className="relative md:grid md:grid-cols-2 md:gap-12 mb-10"
         >
             <div className={isEven ? 'md:col-start-1' : 'md:col-start-2'}>
-                <div className="glass rounded p-6 border-l-2 border-l-accent relative">
-                    <span className="absolute top-5 right-5 font-mono text-accent text-sm">{year}</span>
-                    <h4 className="text-foreground text-xl font-semibold mb-3 pr-16">{title}</h4>
+                <div className="glass rounded p-6 border-l-2 border-l-accent">
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                        <h4 className="text-foreground text-xl font-semibold">{title}</h4>
+                        <span className="font-mono text-accent text-sm shrink-0">{year}</span>
+                    </div>
                     <p className="text-foreground-muted text-sm">{description}</p>
+                    <div className="mt-5 flex flex-wrap gap-2">
+                        <span className="font-mono text-xs bg-accent text-background px-2.5 py-1 rounded">
+                            {eventCount} events
+                        </span>
+                        {categories.slice(0, 4).map((category) => (
+                            <span key={category} className="font-mono text-xs text-accent border border-accent/40 px-2.5 py-1 rounded">
+                                {category}
+                            </span>
+                        ))}
+                    </div>
                 </div>
             </div>
             <span className="absolute left-[-25px] md:left-1/2 md:-translate-x-1/2 top-6 w-2.5 h-2.5 bg-accent rounded-full shadow-[0_0_16px_rgba(212,160,23,0.35)]" />
@@ -217,6 +241,9 @@ const About = () => {
                 <div className="text-center mb-16">
                     <span className="amber-line mx-auto mb-5" />
                     <h2>Our Story</h2>
+                    <p className="max-w-2xl mx-auto mt-4">
+                        Built from the NCSE event archive, this timeline shows how the association grew from inauguration-led beginnings into a full technical, creative, and project-focused calendar.
+                    </p>
                 </div>
                 <div className="relative max-w-5xl mx-auto pl-8 md:pl-0">
                     <div className="absolute left-0 md:left-1/2 md:-translate-x-1/2 top-2 bottom-2 w-0.5 bg-accent/70 rounded-full" />
