@@ -189,7 +189,7 @@ export const boardMembers = [
           role: "Vice President",
           team: "Core Board",
           bio: "Supports the president and manages association operations.",
-          photo: "/images/member20.png",
+          photo: "/images/board/2023-2024/image30.jpeg",
           socials: {},
         },
         {
@@ -198,7 +198,7 @@ export const boardMembers = [
           role: "Member Secretary",
           team: "Administration",
           bio: "Handles records, communication, and official documentation.",
-          photo: "/images/member21.png",
+          photo: "/images/board/2023-2024/image23.jpeg",
           socials: {linkedin:'https://www.linkedin.com/in/anand-hariharan-3461862b3/'},
         },
         {
@@ -207,8 +207,8 @@ export const boardMembers = [
           role: "General Secretary",
           team: "Administration",
           bio: "Coordinates meetings, schedules, and execution tasks.",
-          photo: "/images/member22.png",
-          socials: {},
+          photo: "/images/board/2023-2024/image24.jpeg",
+          socials: {linkedin: 'https://www.linkedin.com/in/ashwin-a-59baa91a0/'},
         },
         {
           id: "mem-023",
@@ -216,8 +216,8 @@ export const boardMembers = [
           role: "Treasurer",
           team: "Finance",
           bio: "Manages accounts, budgets, and financial planning.",
-          photo: "/images/member23.png",
-          socials: {},
+          photo: "/images/board/2023-2024/image25.jpeg",
+          socials: {linkedin: 'https://www.linkedin.com/in/karthick-s-a4127028b/'},
         },
         {
           id: "mem-024",
@@ -225,7 +225,7 @@ export const boardMembers = [
           role: "Student Coordinator",
           team: "Student Affairs",
           bio: "Coordinates student participation and engagement.",
-          photo: "/images/member24.png",
+          photo: "/images/board/2023-2024/image26.jpeg",
           socials: {},
         },
         {
@@ -234,8 +234,8 @@ export const boardMembers = [
           role: "Student Coordinator",
           team: "Student Affairs",
           bio: "Supports event coordination and student communication.",
-          photo: "/images/member25.png",
-          socials: {},
+          photo: "/images/board/2023-2024/image29.jpeg",
+          socials: {linkedin: 'https://www.linkedin.com/in/tamilarasan-t-31a8b0248/'},
         },
         {
           id: "mem-026",
@@ -243,7 +243,7 @@ export const boardMembers = [
           role: "Joint Secretary",
           team: "Administration",
           bio: "Assists in communication and organizational duties.",
-          photo: "/images/member26.png",
+          photo: "/images/board/2023-2024/image27.jpeg",
           socials: {},
         },
         {
@@ -252,7 +252,7 @@ export const boardMembers = [
           role: "Joint Secretary",
           team: "Administration",
           bio: "Supports secretary tasks and internal management.",
-          photo: "/images/member27.png",
+          photo: "/images/board/2023-2024/image28.jpeg",
           socials: {},
         },
       ],
@@ -268,7 +268,7 @@ export const boardMembers = [
           role: "President",
           team: "Core Board",
           bio: "Led NCSE activities and student initiatives.",
-          photo: "/images/member28.png",
+          photo: "/images/board/2022-2023/image41.jpeg",
           socials: {},
         },
         {
@@ -277,7 +277,7 @@ export const boardMembers = [
           role: "Vice President",
           team: "Core Board",
           bio: "Supported leadership and operations.",
-          photo: "/images/member29.png",
+          photo: "/images/board/2022-2023/image42.jpeg",
           socials: {},
         },
         {
@@ -295,7 +295,7 @@ export const boardMembers = [
           role: "General Secretary",
           team: "Administration",
           bio: "Handled schedules and execution support.",
-          photo: "/images/member31.png",
+          photo: "/images/board/2022-2023/image44.jpeg",
           socials: {},
         },
         {
@@ -304,8 +304,17 @@ export const boardMembers = [
           role: "Treasurer",
           team: "Finance",
           bio: "Handled budgets and financial responsibilities.",
-          photo: "/images/member32.png",
+          photo: "/images/board/2022-2023/image48.jpeg",
           socials: {},
+        },
+         {
+          id: "mem-023",
+          name: "Karthick S",
+          role: "Treasurer",
+          team: "Finance",
+          bio: "Manages accounts, budgets, and financial planning.",
+          photo: "/images/board/2023-2024/image25.jpeg",
+          socials: {linkedin: 'https://www.linkedin.com/in/karthick-s-a4127028b/'},
         },
         {
           id: "mem-033",
@@ -313,7 +322,7 @@ export const boardMembers = [
           role: "Joint Secretary",
           team: "Administration",
           bio: "Supported association coordination.",
-          photo: "/images/member33.png",
+          photo: "/images/board/2022-2023/image43.jpeg",
           socials: {},
         },
         {
@@ -322,7 +331,7 @@ export const boardMembers = [
           role: "Student Coordinator",
           team: "Student Affairs",
           bio: "Managed student engagement activities.",
-          photo: "/images/member34.png",
+          photo: "/images/board/2022-2023/image45.jpeg",
           socials: {},
         },
         {
@@ -331,7 +340,7 @@ export const boardMembers = [
           role: "Student Coordinator",
           team: "Student Affairs",
           bio: "Supported events and student communication.",
-          photo: "/images/member35.png",
+          photo: "/images/board/2022-2023/image46.jpeg",
           socials: {},
         },
       ],
@@ -347,7 +356,7 @@ export const boardMembers = [
           role: "President",
           team: "Core Board",
           bio: "Led NCSE during the academic year.",
-          photo: "/images/member36.png",
+          photo: "/images/board/2021-2022/image64.jpeg",
           socials: {},
         },
         {
@@ -356,7 +365,7 @@ export const boardMembers = [
           role: "Vice President",
           team: "Core Board",
           bio: "Assisted in leadership and administration.",
-          photo: "/images/member37.png",
+          photo: "/images/board/2021-2022/image67.jpeg",
           socials: {},
         },
         {
@@ -365,7 +374,7 @@ export const boardMembers = [
           role: "Member Secretary",
           team: "Administration",
           bio: "Handled records and communication.",
-          photo: "/images/member38.png",
+          photo: "/images/board/2021-2022/image70.jpeg",
           socials: {},
         },
         {
@@ -374,7 +383,7 @@ export const boardMembers = [
           role: "General Secretary",
           team: "Administration",
           bio: "Managed planning and coordination.",
-          photo: "/images/member39.png",
+          photo: "/images/board/2021-2022/image65.jpeg",
           socials: {},
         },
         {
@@ -383,7 +392,7 @@ export const boardMembers = [
           role: "Treasurer",
           team: "Finance",
           bio: "Managed funds and budgets.",
-          photo: "/images/member40.png",
+          photo: "/images/board/2021-2022/image72.jpeg",
           socials: {},
         },
         {
@@ -392,7 +401,7 @@ export const boardMembers = [
           role: "Joint Treasurer",
           team: "Finance",
           bio: "Assisted treasury operations.",
-          photo: "/images/member41.png",
+          photo: "/images/board/2021-2022/image68.jpeg",
           socials: {},
         },
         {
@@ -401,7 +410,7 @@ export const boardMembers = [
           role: "Joint Secretary",
           team: "Administration",
           bio: "Supported communication and management.",
-          photo: "/images/member42.png",
+          photo: "/images/board/2021-2022/image66.jpeg",
           socials: {},
         },
         {
@@ -410,7 +419,7 @@ export const boardMembers = [
           role: "Student Coordinator",
           team: "Student Affairs",
           bio: "Handled student participation.",
-          photo: "/images/member43.png",
+          photo: "/images/board/2021-2022/image69.jpeg",
           socials: {},
         },
         {
@@ -419,7 +428,7 @@ export const boardMembers = [
           role: "Student Coordinator",
           team: "Student Affairs",
           bio: "Supported event coordination.",
-          photo: "/images/member44.png",
+          photo: "/images/board/2021-2022/image71.jpeg",
           socials: {},
         },
       ],
