@@ -1,5 +1,49 @@
 export const events = [
   {
+    batch: "2025-2026",
+    isCurrent: true,
+    events: [
+      {
+        id: "evt-017",
+        title: "CODE WARS 2.0",
+        date: "January 24, 2026",
+        description: "A three-round coding competition (Gun 1, Gun 2, Gun 3) designed to progressively test programming fundamentals, analytical thinking, and advanced problem-solving skills. The event challenged participants to improve efficiency and coding expertise.",
+        images: [
+          "/images/events/2025-2026/CodeWars/codewars.png",
+          "/images/events/2025-2026/CodeWars/image1.png",
+          "/images/events/2025-2026/CodeWars/image2.png",
+        ],
+        category: "Competition",
+        status: "Completed",
+        batch: "2025-2026",
+      },
+      {
+        id: "evt-018",
+        title: "CTRL+QUIZ",
+        date: "March 13, 2026",
+        description: "An interactive technical quiz conducted on the Wayground platform covering DSA, OOPS, DBMS, Java, and Python. The event featured gamified competition elements and multiple rounds to enhance problem-solving, speed, and decision-making skills.",
+        images: [
+        '/images/events/2025-2026/Ctrl+Quiz/2.png'
+        ],
+        category: "Competition",
+        status: "Completed",
+        batch: "2025-2026",
+      },
+      {
+        id: "evt-019",
+        title: "TERMINERDS",
+        date: "April 7, 2026",
+        description: "A two-round technical event featuring Guess the Technical Word and Code Swap Challenge. It focused on analytical thinking, teamwork, coding collaboration, and problem-solving under constraints.",
+        images: [
+          '/images/events/2025-2026/TermiNerds/3.png'
+        ],
+        category: "Competition",
+        status: "Completed",
+        batch: "2025-2026",
+      }
+    ],
+  },
+  {
     batch: "2023-2024",
     isCurrent: false,
     events: [
