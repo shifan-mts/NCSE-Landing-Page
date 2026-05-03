@@ -18,7 +18,7 @@ export const boardMembers = [
         role: "Vice President",
         team: "Core Board",
         bio: "Supports executive leadership, manages operations, and drives major initiatives.",
-        photo: "/images/member2.png",
+        photo: "/images/board/2025-2026/shif-profile.jpeg",
         socials: {linkedin:'https://www.linkedin.com/in/shifan-mts/'},
       },
       {
@@ -36,7 +36,7 @@ export const boardMembers = [
         role: "Member Secretary",
         team: "Administration",
         bio: "Maintains records, membership data, and association documentation.",
-        photo: "/images/member4.png",
+        photo: "/images/board/2025-2026/keerthana.jpeg",
         socials: {linkedin:'https://www.linkedin.com/in/keerthana-manivannan-92362834b/'},
       },
       {
@@ -54,7 +54,7 @@ export const boardMembers = [
         role: "Joint Treasurer",
         team: "Finance",
         bio: "Assists treasury operations, expense tracking, and financial reporting.",
-        photo: "/images/member6.png",
+        photo: "/images/board/2025-2026/Thanishca L.jpg",
         socials: {linkedin:'https://www.linkedin.com/in/thanishca-l-73b15934b/'},
       },
       {
@@ -63,7 +63,7 @@ export const boardMembers = [
         role: "Joint Treasurer",
         team: "Finance",
         bio: "Supports budgeting processes and manages event expense coordination.",
-        photo: "/images/member7.png",
+        photo: "/images/board/2025-2026/Dhana Lakshmi.jpg",
         socials: {linkedin:'https://www.linkedin.com/in/dhanalakshmim2005/'},
       },
       {
@@ -81,7 +81,7 @@ export const boardMembers = [
         role: "Design Head",
         team: "Design",
         bio: "Creates digital creatives, promotional assets, and event design materials.",
-        photo: "/images/member9.png",
+        photo: "/images/board/2025-2026/Nithyashree R.png",
         socials: {linkedin:'https://www.linkedin.com/in/nithyashree-radhakrishnan-740b30294/'},
       },
       {
@@ -90,7 +90,7 @@ export const boardMembers = [
         role: "Outreach Head",
         team: "Outreach",
         bio: "Builds collaborations, external relations, and community engagement programs.",
-        photo: "/images/member10.png",
+        photo: "/images/board/2025-2026/Aiswarya.jpg",
         socials: {linkedin:'https://www.linkedin.com/in/aiswarya-p-579b70320/'},
       },
       {
@@ -99,7 +99,7 @@ export const boardMembers = [
         role: "Outreach Member",
         team: "Outreach",
         bio: "Supports networking efforts, promotions, and partnership communication.",
-        photo: "/images/member11.png",
+        photo: "/images/board/2025-2026/Sowndarya D.jpg",
         socials: {linkedin:'https://www.linkedin.com/in/sowndarya-d-0a4164296/'},
       },
       {
@@ -108,7 +108,7 @@ export const boardMembers = [
         role: "Outreach Member",
         team: "Outreach",
         bio: "Assists external communications and student reach initiatives.",
-        photo: "/images/member12.png",
+        photo: "/images/board/2025-2026/Pranesh P.jpg",
         socials: {linkedin:'https://www.linkedin.com/in/pranesh-p-973208342/'},
       },
       {
@@ -117,7 +117,7 @@ export const boardMembers = [
         role: "Student Coordinator",
         team: "Student Affairs",
         bio: "Coordinates student participation, registrations, and event support.",
-        photo: "/images/member13.png",
+        photo: "/images/board/2025-2026/Haq.jpg",
         socials: {linkedin:'https://www.linkedin.com/in/mohammed-noorul-haq-071068279/'},
       },
       {
