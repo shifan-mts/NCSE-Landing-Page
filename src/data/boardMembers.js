@@ -226,7 +226,7 @@ export const boardMembers = [
         team: "Core Board",
         bio: "Leads the NCSE association and oversees student activities.",
         photo: "/images/board/2024-2025/Mahalakshmi.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/mahalakshmirs"},
       },
 
       {
@@ -236,7 +236,7 @@ export const boardMembers = [
         team: "Core Board",
         bio: "Supports the president and manages association operations.",
         photo: "/images/board/2024-2025/VISHALL R.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/vishall-ravikumar-9a8107279/"},
       },
 
       {
@@ -259,7 +259,7 @@ export const boardMembers = [
         team: "Administration",
         bio: "Supports secretary tasks and internal coordination.",
         photo: "/images/board/2024-2025/Manikandan_Askar.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/manikandan-askar-k/"},
       },
 
       {
@@ -279,7 +279,7 @@ export const boardMembers = [
         team: "Finance",
         bio: "Manages accounts, budgets, and financial planning.",
         photo: "/images/board/2024-2025/Balamurugan M (treasurer).jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/balamuruganm2003/"},
       },
 
       {
@@ -289,7 +289,7 @@ export const boardMembers = [
         team: "Finance",
         bio: "Assists in financial management and budgeting.",
         photo: "/images/board/2024-2025/SANJULA R.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/sanjula-r-341150279/"},
       },
 
       {
@@ -311,7 +311,7 @@ export const boardMembers = [
         team: "Student Affairs",
         bio: "Coordinates student participation and engagement.",
         photo: "/images/board/2024-2025/Dinesh.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/bakageddy/"},
       },
 
       {
@@ -333,7 +333,7 @@ export const boardMembers = [
         team: "Technical",
         bio: "Leads web development and technical initiatives.",
         photo: "/images/board/2024-2025/Damodharan M.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/damodharanm/"},
       },
 
       {
@@ -343,7 +343,7 @@ export const boardMembers = [
         team: "Technical",
         bio: "Supports web development and technical tasks.",
         photo: "/images/board/2024-2025/Vinoth K.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/thevinoth/"},
       },
 
       {
@@ -365,7 +365,7 @@ export const boardMembers = [
         team: "Design",
         bio: "Leads design and creative activities for the association.",
         photo: "/images/board/2024-2025/Jothikrishnan.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/jothi-krishnan-5a4636357/"},
       },
 
       {
@@ -388,7 +388,7 @@ export const boardMembers = [
         team: "Design",
         bio: "Contributes to design and branding activities.",
         photo: "/images/board/2024-2025/Aafrin.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/aafrin-n-62964b294/"},
       },
 
       {
@@ -398,7 +398,7 @@ export const boardMembers = [
         team: "Outreach",
         bio: "Handles outreach programs and external communications.",
         photo: "/images/board/2024-2025/S Varshini_.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/varshini2510/"},
       },
 
       {
@@ -421,7 +421,7 @@ export const boardMembers = [
         team: "Outreach",
         bio: "Supports outreach and engagement programs.",
         photo: "/images/board/2024-2025/Nandhana V_.jpg",
-        socials: {},
+        socials: {linkedin:"https://www.linkedin.com/in/nandhana-v-b27890320/"},
       },
     ],
   },
