@@ -9,8 +9,11 @@ export const boardMembers = [
         role: "President",
         team: "Core Board",
         bio: "Leads NCSE vision, strategic planning, and overall association growth.",
-        photo: "/images/member1.png",
-        socials: {linkedin:'https://www.linkedin.com/in/jeevan-dhivya-vijayakumar-5ba35a279/'},
+        photo: "/images/board/2025-2026/jeevan.png",
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/jeevan-dhivya-vijayakumar-5ba35a279/",
+        },
       },
       {
         id: "mem-002",
@@ -19,7 +22,9 @@ export const boardMembers = [
         team: "Core Board",
         bio: "Supports executive leadership, manages operations, and drives major initiatives.",
         photo: "/images/board/2025-2026/shif-profile.jpeg",
-        socials: {linkedin:'https://www.linkedin.com/in/shifan-mts/'},
+        socials: {
+          linkedin: "https://www.linkedin.com/in/shifan-mts/",
+        },
       },
       {
         id: "mem-003",
@@ -27,8 +32,11 @@ export const boardMembers = [
         role: "General Secretary",
         team: "Administration",
         bio: "Handles internal coordination, meeting schedules, and official communications.",
-        photo: "/images/member3.png",
-        socials: {linkedin:'https://www.linkedin.com/in/amritha-varshini-25aa6a278/'},
+        photo: "/images/board/2024-2025/Amrithavarshini.jpg",
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/amritha-varshini-25aa6a278/",
+        },
       },
       {
         id: "mem-004",
@@ -37,7 +45,10 @@ export const boardMembers = [
         team: "Administration",
         bio: "Maintains records, membership data, and association documentation.",
         photo: "/images/board/2025-2026/keerthana.jpeg",
-        socials: {linkedin:'https://www.linkedin.com/in/keerthana-manivannan-92362834b/'},
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/keerthana-manivannan-92362834b/",
+        },
       },
       {
         id: "mem-005",
@@ -46,7 +57,10 @@ export const boardMembers = [
         team: "Finance",
         bio: "Oversees budgeting, accounts, sponsorship funds, and financial planning.",
         photo: "/images/member5.png",
-        socials: {linkedin:'linkedin.com/in/pradeep-thangaraj-180a72278/?skipRedirect=true'},
+        socials: {
+          linkedin:
+            "https://linkedin.com/in/pradeep-thangaraj-180a72278/?skipRedirect=true",
+        },
       },
       {
         id: "mem-006",
@@ -55,7 +69,9 @@ export const boardMembers = [
         team: "Finance",
         bio: "Assists treasury operations, expense tracking, and financial reporting.",
         photo: "/images/board/2025-2026/Thanishca L.jpg",
-        socials: {linkedin:'https://www.linkedin.com/in/thanishca-l-73b15934b/'},
+        socials: {
+          linkedin: "https://www.linkedin.com/in/thanishca-l-73b15934b/",
+        },
       },
       {
         id: "mem-007",
@@ -64,7 +80,9 @@ export const boardMembers = [
         team: "Finance",
         bio: "Supports budgeting processes and manages event expense coordination.",
         photo: "/images/board/2025-2026/Dhana Lakshmi.jpg",
-        socials: {linkedin:'https://www.linkedin.com/in/dhanalakshmim2005/'},
+        socials: {
+          linkedin: "https://www.linkedin.com/in/dhanalakshmim2005/",
+        },
       },
       {
         id: "mem-008",
@@ -73,7 +91,10 @@ export const boardMembers = [
         team: "Design",
         bio: "Leads branding, posters, creatives, and visual identity for NCSE events.",
         photo: "/images/member8.png",
-        socials: {linkedin:'https://www.linkedin.com/in/santhya-anandan-13824a2b4/'},
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/santhya-anandan-13824a2b4/",
+        },
       },
       {
         id: "mem-009",
@@ -82,7 +103,10 @@ export const boardMembers = [
         team: "Design",
         bio: "Creates digital creatives, promotional assets, and event design materials.",
         photo: "/images/board/2025-2026/Nithyashree R.png",
-        socials: {linkedin:'https://www.linkedin.com/in/nithyashree-radhakrishnan-740b30294/'},
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/nithyashree-radhakrishnan-740b30294/",
+        },
       },
       {
         id: "mem-010",
@@ -91,7 +115,9 @@ export const boardMembers = [
         team: "Outreach",
         bio: "Builds collaborations, external relations, and community engagement programs.",
         photo: "/images/board/2025-2026/Aiswarya.jpg",
-        socials: {linkedin:'https://www.linkedin.com/in/aiswarya-p-579b70320/'},
+        socials: {
+          linkedin: "https://www.linkedin.com/in/aiswarya-p-579b70320/",
+        },
       },
       {
         id: "mem-011",
@@ -100,7 +126,9 @@ export const boardMembers = [
         team: "Outreach",
         bio: "Supports networking efforts, promotions, and partnership communication.",
         photo: "/images/board/2025-2026/Sowndarya D.jpg",
-        socials: {linkedin:'https://www.linkedin.com/in/sowndarya-d-0a4164296/'},
+        socials: {
+          linkedin: "https://www.linkedin.com/in/sowndarya-d-0a4164296/",
+        },
       },
       {
         id: "mem-012",
@@ -109,7 +137,9 @@ export const boardMembers = [
         team: "Outreach",
         bio: "Assists external communications and student reach initiatives.",
         photo: "/images/board/2025-2026/Pranesh P.jpg",
-        socials: {linkedin:'https://www.linkedin.com/in/pranesh-p-973208342/'},
+        socials: {
+          linkedin: "https://www.linkedin.com/in/pranesh-p-973208342/",
+        },
       },
       {
         id: "mem-013",
@@ -118,7 +148,10 @@ export const boardMembers = [
         team: "Student Affairs",
         bio: "Coordinates student participation, registrations, and event support.",
         photo: "/images/board/2025-2026/Haq.jpg",
-        socials: {linkedin:'https://www.linkedin.com/in/mohammed-noorul-haq-071068279/'},
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/mohammed-noorul-haq-071068279/",
+        },
       },
       {
         id: "mem-014",
@@ -127,8 +160,11 @@ export const boardMembers = [
         team: "Student Affairs",
         bio: "Ensures smooth student communication and volunteer coordination.",
         photo: "/images/member14.png",
-        socials: {linkedin:'https://www.linkedin.com/in/evangelin-rachel-a-6a806a320/'},
-          },
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/evangelin-rachel-a-6a806a320/",
+        },
+      },
       {
         id: "mem-015",
         name: "Nandini J",
@@ -136,7 +172,9 @@ export const boardMembers = [
         team: "Operations",
         bio: "Supports planning, logistics, and successful execution of activities.",
         photo: "/images/member15.png",
-        socials: {linkedin:'https://www.linkedin.com/in/nandu-codes/'},
+        socials: {
+          linkedin: "https://www.linkedin.com/in/nandu-codes/",
+        },
       },
       {
         id: "mem-016",
@@ -145,7 +183,10 @@ export const boardMembers = [
         team: "Operations",
         bio: "Contributes to event management and operational excellence.",
         photo: "/images/member16.png",
-        socials: {linkedin:'https://www.linkedin.com/in/nithiyaganesh-s-70996935a/'},
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/nithiyaganesh-s-70996935a/",
+        },
       },
       {
         id: "mem-017",
@@ -154,7 +195,10 @@ export const boardMembers = [
         team: "Operations",
         bio: "Assists in execution, volunteer support, and event coordination.",
         photo: "/images/member17.png",
-        socials: {linkedin:'https://www.linkedin.com/in/divya-sri-m-5333aa39b/?skipRedirect=true'},
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/divya-sri-m-5333aa39b/?skipRedirect=true",
+        },
       },
       {
         id: "mem-018",
@@ -163,7 +207,221 @@ export const boardMembers = [
         team: "Operations",
         bio: "Supports association tasks, logistics, and smooth event delivery.",
         photo: "/images/member18.png",
-        socials: {linkedin:'https://www.linkedin.com/in/guru-prasaad-r-986787352/'},
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/guru-prasaad-r-986787352/",
+        },
+      },
+    ],
+  },
+
+  {
+    batch: "2024-2025",
+    isCurrent: false,
+    members: [
+      {
+        id: "mem-029",
+        name: "Mahalakshmi R",
+        role: "President",
+        team: "Core Board",
+        bio: "Leads the NCSE association and oversees student activities.",
+        photo: "/images/board/2024-2025/Mahalakshmi.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-037",
+        name: "Vishall R",
+        role: "Vice President",
+        team: "Core Board",
+        bio: "Supports the president and manages association operations.",
+        photo: "/images/board/2024-2025/VISHALL R.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-031",
+        name: "Signeta Gloria F",
+        role: "Secretary",
+        team: "Administration",
+        bio: "Handles communication and organizational activities.",
+        photo: "/images/board/2024-2025/SIGNETA GLORIA F.jpg",
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/signeta-gloria-f-b1b068228/",
+        },
+      },
+
+      {
+        id: "mem-039",
+        name: "Manikandan Askar K",
+        role: "Joint Secretary",
+        team: "Administration",
+        bio: "Supports secretary tasks and internal coordination.",
+        photo: "/images/board/2024-2025/Manikandan_Askar.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-044",
+        name: "Sangeetha D",
+        role: "Joint Secretary",
+        team: "Administration",
+        bio: "Supports communication and organizational duties.",
+        photo: "/images/board/2024-2025/SANGEETHA D.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-030",
+        name: "Balamurugan M",
+        role: "Treasurer",
+        team: "Finance",
+        bio: "Manages accounts, budgets, and financial planning.",
+        photo: "/images/board/2024-2025/Balamurugan M (treasurer).jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-038",
+        name: "Sanjula R",
+        role: "Joint Treasurer",
+        team: "Finance",
+        bio: "Assists in financial management and budgeting.",
+        photo: "/images/board/2024-2025/SANJULA R.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-043",
+        name: "Aiswarya P",
+        role: "Joint Treasurer",
+        team: "Finance",
+        bio: "Assists in managing financial activities.",
+        photo: "/images/board/2024-2025/Aiswarya P_.jpg",
+        socials: {
+          linkedin: "https://www.linkedin.com/in/aiswarya-p-579b70320/",
+        },
+      },
+
+      {
+        id: "mem-032",
+        name: "Dineshkumar G",
+        role: "Student Coordinator",
+        team: "Student Affairs",
+        bio: "Coordinates student participation and engagement.",
+        photo: "/images/board/2024-2025/Dinesh.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-033",
+        name: "Sreenidhi J",
+        role: "Student Coordinator",
+        team: "Student Affairs",
+        bio: "Supports event coordination and student communication.",
+        photo: "/images/board/2024-2025/Sreenidhi.jpg",
+        socials: {
+          linkedin: "https://www.linkedin.com/in/sree2112/",
+        },
+      },
+
+      {
+        id: "mem-036",
+        name: "Damodharan M",
+        role: "Web Development Head",
+        team: "Technical",
+        bio: "Leads web development and technical initiatives.",
+        photo: "/images/board/2024-2025/Damodharan M.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-042",
+        name: "Vinoth K",
+        role: "Web Development Member",
+        team: "Technical",
+        bio: "Supports web development and technical tasks.",
+        photo: "/images/board/2024-2025/Vinoth K.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-047",
+        name: "Mohamed Shifan A",
+        role: "Web Development Member",
+        team: "Technical",
+        bio: "Works on web development and technical projects.",
+        photo: "/images/board/2024-2025/Mohamed Shifan.png",
+        socials: {
+          linkedin: "https://www.linkedin.com/in/shifan-mts/",
+        },
+      },
+
+      {
+        id: "mem-034",
+        name: "JothiKrishnan",
+        role: "Design Head",
+        team: "Design",
+        bio: "Leads design and creative activities for the association.",
+        photo: "/images/board/2024-2025/Jothikrishnan.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-040",
+        name: "Amrithavarshini S",
+        role: "Design Member",
+        team: "Design",
+        bio: "Contributes to posters, creatives, and visual content.",
+        photo: "/images/board/2024-2025/Amrithavarshini.jpg",
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/amritha-varshini-25aa6a278/",
+        },
+      },
+
+      {
+        id: "mem-045",
+        name: "Aafrin N",
+        role: "Design Member",
+        team: "Design",
+        bio: "Contributes to design and branding activities.",
+        photo: "/images/board/2024-2025/Aafrin.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-035",
+        name: "Varshini S",
+        role: "Outreach Head",
+        team: "Outreach",
+        bio: "Handles outreach programs and external communications.",
+        photo: "/images/board/2024-2025/S Varshini_.jpg",
+        socials: {},
+      },
+
+      {
+        id: "mem-041",
+        name: "D. V. Jeevan",
+        role: "Outreach Member",
+        team: "Outreach",
+        bio: "Supports outreach activities and collaborations.",
+        photo: "/images/board/2025-2026/jeevan.png",
+        socials: {
+          linkedin:
+            "https://www.linkedin.com/in/jeevan-dhivya-vijayakumar-5ba35a279/",
+        },
+      },
+
+      {
+        id: "mem-046",
+        name: "Nandhana V",
+        role: "Outreach Member",
+        team: "Outreach",
+        bio: "Supports outreach and engagement programs.",
+        photo: "/images/board/2024-2025/Nandhana V_.jpg",
+        socials: {},
       },
     ],
   },
