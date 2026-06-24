@@ -56,7 +56,7 @@ export const boardMembers = [
         role: "Treasurer",
         team: "Finance",
         bio: "Oversees budgeting, accounts, sponsorship funds, and financial planning.",
-        photo: "/images/member5.png",
+        photo: "/images/board/2025-2026/pradeep.png",
         socials: {
           linkedin:
             "https://linkedin.com/in/pradeep-thangaraj-180a72278/?skipRedirect=true",
@@ -90,7 +90,7 @@ export const boardMembers = [
         role: "Design Head",
         team: "Design",
         bio: "Leads branding, posters, creatives, and visual identity for NCSE events.",
-        photo: "/images/member8.png",
+        photo: "/images/board/2025-2026/sandhya.png",
         socials: {
           linkedin:
             "https://www.linkedin.com/in/santhya-anandan-13824a2b4/",
@@ -171,7 +171,7 @@ export const boardMembers = [
         role: "Executive Member",
         team: "Operations",
         bio: "Supports planning, logistics, and successful execution of activities.",
-        photo: "/images/member15.png",
+        photo: "/images/board/2025-2026/nandini.png",
         socials: {
           linkedin: "https://www.linkedin.com/in/nandu-codes/",
         },
@@ -182,7 +182,7 @@ export const boardMembers = [
         role: "Executive Member",
         team: "Operations",
         bio: "Contributes to event management and operational excellence.",
-        photo: "/images/member16.png",
+        photo: "/images/board/2025-2026/nithyGanesh.png",
         socials: {
           linkedin:
             "https://www.linkedin.com/in/nithiyaganesh-s-70996935a/",
@@ -206,7 +206,7 @@ export const boardMembers = [
         role: "Executive Member",
         team: "Operations",
         bio: "Supports association tasks, logistics, and smooth event delivery.",
-        photo: "/images/member18.png",
+        photo: "/images/board/2025-2026/guru.png",
         socials: {
           linkedin:
             "https://www.linkedin.com/in/guru-prasaad-r-986787352/",

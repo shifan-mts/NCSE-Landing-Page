@@ -20,7 +20,12 @@ const Footer = () => {
                             {associationInfo.mission}
                         </p>
                         <p className="font-mono text-sm text-foreground-dim">{associationInfo.department}</p>
-                        <p className="font-mono text-sm text-foreground-dim mt-2">{associationInfo.socials.email}</p>
+                        <a 
+                            href={`mailto:${associationInfo.socials.email}`} 
+                            className="hover:text-accent transition-colors duration-200 inline-block mt-2"
+                        >
+                            <p className="font-mono text-sm text-foreground-dim">{associationInfo.socials.email}</p>
+                        </a>
                     </div>
 
                     <div>

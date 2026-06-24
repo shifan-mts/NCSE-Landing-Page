@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Linkedin, Github, Twitter, Mail } from 'lucide-react';
-import { boardMembers } from '../data';
+import { boardMembers, facultyAdvisors } from '../data';
 import BatchTabs from '../components/BatchTabs';
 
 const socialIcons = {
@@ -58,6 +58,65 @@ const Board = () => {
                         )}
                     </motion.div>
                 </div>
+
+                {/* Faculty Advisors Section */}
+                <div className="mb-16">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        className="mb-8"
+                    >
+                        <div className="flex items-center gap-5 mb-4">
+                            <span className="amber-line" />
+                            <h2 className="mb-0 text-2xl md:text-3xl">Faculty Advisors</h2>
+                        </div>
+                        <p className="max-w-2xl text-foreground-muted">
+                            The mentors who guide, support, and oversee the activities of the student chapter.
+                        </p>
+                    </motion.div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
+                        {facultyAdvisors.map((advisor) => (
+                            <motion.article
+                                key={advisor.id}
+                                initial={{ opacity: 0, scale: 0.96, y: 20 }}
+                                animate={{ opacity: 1, scale: 1, y: 0 }}
+                                transition={{ duration: 0.4 }}
+                                whileHover={{ y: -4 }}
+                                className="glass p-6 rounded flex flex-col sm:flex-row items-center sm:items-start gap-6 border-l-2 border-l-accent group relative overflow-hidden"
+                            >
+                                <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border border-border group-hover:ring-2 group-hover:ring-accent transition-all shrink-0">
+                                    <img src={advisor.photo} alt={advisor.name} className="w-full h-full object-cover" />
+                                </div>
+                                <div className="flex flex-col text-center sm:text-left h-full">
+                                    <span className="font-mono text-accent text-xs md:text-sm mb-1 tracking-wider uppercase font-semibold">
+                                        {advisor.role}
+                                    </span>
+                                    <h3 className="text-xl font-bold text-foreground mb-1">{advisor.name}</h3>
+                                    <p className="text-xs text-foreground-muted mb-3 font-medium">{advisor.designation}</p>
+                                    <p className="text-sm text-foreground-muted mb-4 leading-relaxed">{advisor.bio}</p>
+
+                                    {advisor.socials.email && (
+                                        <div className="mt-auto flex justify-center sm:justify-start gap-4">
+                                            <motion.a
+                                                whileHover={{ scale: 1.16 }}
+                                                whileTap={{ scale: 0.94 }}
+                                                href={`mailto:${advisor.socials.email}`}
+                                                aria-label={`${advisor.name} email`}
+                                                className="text-foreground-dim hover:text-accent transition-colors flex items-center gap-2 text-sm"
+                                            >
+                                                <Mail size={17} />
+                                                <span className="font-mono text-xs">{advisor.socials.email}</span>
+                                            </motion.a>
+                                        </div>
+                                    )}
+                                </div>
+                            </motion.article>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="w-full h-px bg-border/60 my-16" />
 
                 <BatchTabs batches={batches} activeBatch={activeBatch} setActiveBatch={setActiveBatch} />
 

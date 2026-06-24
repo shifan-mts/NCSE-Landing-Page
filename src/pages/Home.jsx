@@ -10,8 +10,8 @@ import { associationInfo, events, inauguralImages, pastEventImages } from '../da
 const statItems = [
     { label: 'Members', value: 200, suffix: '+' },
     { label: 'Events Conducted', value: 12, suffix: '+' },
-    { label: 'Batches Active', value: 4, suffix: '' },
-    { label: 'Founded', value: 2021, suffix: '' },
+    { label: 'Batches Active', value: "5+", suffix: '' },
+    { label: 'Current Batch', value: 2025, suffix: '' },
 ];
 
 const features = [
@@ -239,14 +239,7 @@ const Home = () => {
 
             <EventsPreview />
 
-            <div id="past-events">
-                <CarouselSection
-                    label="Archive"
-                    title="Moments from Past Events"
-                    subtitle="Snapshots from workshops, summits, and build sessions that shaped the NCSE community."
-                    images={pastEventImages}
-                />
-            </div>
+          
 
             <JoinBand />
         </div>

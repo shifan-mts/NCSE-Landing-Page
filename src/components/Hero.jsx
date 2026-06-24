@@ -29,7 +29,7 @@ const Hero = () => {
                         variants={lineVariants}
                         className="inline-flex font-mono text-accent text-sm tracking-widest border border-accent/40 px-3 py-1 rounded-sm mb-8"
                     >
-                        EST. {associationInfo.founded} · BATCH 2021-2025
+                        Current Batch · {associationInfo.currentBatch}
                     </motion.span>
 
                     <motion.span variants={lineVariants} className="amber-line mx-auto mb-8" />
