@@ -61,12 +61,25 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-t border-border/70 pt-7 text-center font-mono text-foreground-dim text-sm">
-                    <span>&copy; {new Date().getFullYear()} {associationInfo.name}</span>
-                    <span className="text-accent mx-2">·</span>
-                    <span>{associationInfo.college}</span>
-                    <span className="text-accent mx-2">·</span>
-                    <span>All rights reserved</span>
+                <div className="border-t border-border/70 pt-7 text-center font-mono text-foreground-dim text-sm flex flex-col md:flex-row items-center justify-between gap-4">
+                    <div>
+                        <span>&copy; {new Date().getFullYear()} {associationInfo.name}</span>
+                        <span className="text-accent mx-2">·</span>
+                        <span>{associationInfo.college}</span>
+                        <span className="text-accent mx-2">·</span>
+                        <span>All rights reserved</span>
+                    </div>
+                    <div className="text-xs md:text-sm">
+                        Made with <span className="text-accent">❤️</span>  by{' '}
+                        <a
+                            href="https://www.linkedin.com/in/shifan-mts/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-accent hover:underline transition-colors no-underline font-semibold"
+                        >
+                            Mohamed Shifan A
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -37,7 +37,7 @@ const values = [
 
 const storyByBatch = {
     "2021-2022": {
-        title: "The Foundation Year",
+        title: "A Year Full of Energy and Excitement",
         description: "NCSE opened with its inaugural function and quickly shaped its identity through coding, poster making, debate, and team-based quiz events. The first calendar made the association more than a ceremony; it became a place for students to compete, speak, design, and collaborate.",
     },
     "2022-2023": {

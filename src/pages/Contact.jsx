@@ -88,25 +88,17 @@ const Contact = () => {
                             </div>
                         </a>
 
-                        <a href={associationInfo.socials.github} target="_blank" rel="noreferrer" className="glass p-5 md:p-6 rounded flex items-center gap-5 hover:border-accent transition-all group no-underline">
-                            <div className="w-12 h-12 rounded bg-accent/10 text-accent flex items-center justify-center group-hover:bg-accent group-hover:text-background transition-colors">
-                                <Github size={23} />
-                            </div>
-                            <div>
-                                <h4 className="text-foreground font-semibold text-lg">GitHub</h4>
-                                <p className="text-foreground-muted text-base">Explore student projects and repositories</p>
-                            </div>
-                        </a>
+                       
 
-                        <div className="glass p-5 md:p-6 rounded flex items-center gap-5">
+                        <a href="https://maps.app.goo.gl/ePLThBMmAFJsmm328"  target="_blank" rel="noreferrer"><div className="glass p-5 md:p-6 rounded flex items-center gap-5">
                             <div className="w-12 h-12 rounded bg-accent/10 text-accent flex items-center justify-center">
                                 <MapPin size={23} />
                             </div>
                             <div>
                                 <h4 className="text-foreground font-semibold text-lg">Location</h4>
-                                <p className="text-foreground-muted text-base">{associationInfo.department}</p>
+                                <p className="text-foreground-muted text-base">{associationInfo.college}</p>
                             </div>
-                        </div>
+                        </div></a>
                     </motion.div>
 
                     <motion.div

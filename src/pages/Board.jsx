@@ -76,7 +76,7 @@ const Board = () => {
                     </motion.div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl">
-                        {facultyAdvisors.map((advisor) => (
+                        {(facultyAdvisors[activeBatch] || []).map((advisor) => (
                             <motion.article
                                 key={advisor.id}
                                 initial={{ opacity: 0, scale: 0.96, y: 20 }}

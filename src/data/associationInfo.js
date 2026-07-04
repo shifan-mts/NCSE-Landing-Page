@@ -1,7 +1,7 @@
 export const associationInfo = {
     name: "NCSE",
     fullName: "Network of Computer Science and Engineers",
-    college: "Jerusalem College of Engineering",
+    college: "Jerusalem College of Engineering,Chennai-600100",
     department: "Department of Computer Science & Engineering",
     tagline: "Where engineers build, learn, and lead.",
     mission: "To cultivate technical excellence and collaborative spirit among computing students through events, mentorship, and real-world projects.",
